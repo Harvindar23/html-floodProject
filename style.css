@@ -1,0 +1,111 @@
+.h{
+    background-color: #F1EFEF;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif; 
+    
+    
+}
+
+.pins1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #8CA1AB;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+.sec2{
+    border: 10px solid black;
+    border-radius: 13%;
+    color: #7D7C7C;
+    background-color: #D0E7D2;
+    
+}
+
+.sec2lip{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.c2{
+    margin-top: 5px;
+    border: 2px solid black;
+    border-radius: 10px ;
+}
+li{
+    
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+ul li{
+    list-style-type: square;
+}
+.Intro{
+    color: #445069;
+}
+
+.Intro h2{
+    padding-top: 3rem;
+    color: #4F8AE1;
+   
+}
+
+.Intro h3{
+    border: 7px solid #AEC3AE;
+    border-radius: 10px;
+    display: inline-block;
+    width: 300px;
+    color: #F4B654;
+    
+}
+
+
+/* concerns */
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+  }
+#concerns h3{
+    font-family: 'PT Serif', serif;
+}
+#concerns h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 2.2rem;
+    
+}
+#concerns p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #7D7C7C;
+}
+.more{
+    font-size:1.3rem;
+}
+.fir{
+   
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.fir img{
+    margin-top: 40px;
+    border-radius: 23px;
+}
+.pre1{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.bg{
+    height: 70vh;
+    background-image: url(images/indian-parliament-64eeedd4361f4.webp);
+    background-size: cover;
+    opacity: 0.9;
+    margin-top: 0;
+}
+.bg h1{
+    text-align:center;
+}

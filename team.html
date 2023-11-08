@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Team members</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Sono', sans-serif;
+    }
+    .pricing-container{
+      display: flex;
+      gap: 2rem;        
+      justify-content : center;
+      align-items: center;
+      height: 100vh;
+    }
+    .pricing-plan{
+      flex: 1;
+      max-width: 400px;
+      padding: 20px;
+      text-align: center;
+      border-radius: 5px;
+      background-color: whitesmoke;
+
+    }
+    .plan-features{
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .plan-features li{
+      margin-bottom: 10px;
+    }
+    .plan-button{
+      background-color: orangered;
+      border: 0;
+      border-radius: 5px;
+      padding: 10px;
+    }
+    .plan-title{
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .plan-price{
+      font-size: 34px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    img{
+      border-radius: 50%;
+      height: 100px;
+    }
+    
+
+    /* Hint: What can you do with a media query and flexbox? */
+    @media (max-width: 1250px){
+      .pricing-container{
+        flex-direction: column;
+        height: 100%;
+
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="pricing-container">
+    
+    <div class="pricing-plan">
+      <img src="images/JPEG image.jpeg" >
+      <p>Deepak Kumar <br><br> Registration no. 12305328</p>
+      
+      <ul class="plan-features">
+        <li> Aspiring software Developer </li>
+        <li>Hobbies: playing Kabaddi and <br> watching movies</li>
+        <div class="plan-price">LPU</div>
+        
+      </ul>
+    </div>
+    <div class="pricing-plan">
+      <img src="images/myPr11.jpeg" >
+      <p>Harvindar Singh<br> <br> Registration no. 12305864</p>
+      
+      <ul class="plan-features">
+        <li> Aspiring software Developer </li>
+        <li>Hobbies: Reading books and <br>playing football</li>
+        <div class="plan-price">LPU</div>
+      
+    </div>
+    <div class="pricing-plan">
+      <img src="images/sriimage.jpeg" >
+      <p>Pasupuleti V Venkata Satya <br>Sri Narendra<br> Registration no. 12306048</p>
+      
+      <ul class="plan-features">
+        <li> "Future Ethical Hacker" </li>
+        <li>Hobbies :playing basketball and<br> watching animes</li>
+        <div class="plan-price">LPU</div>
+      
+    </div>
+    
+  </div>
+
+</body>
+
+</html>
